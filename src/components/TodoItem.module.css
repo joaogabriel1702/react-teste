@@ -1,0 +1,27 @@
+.todoItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.todoItem.completed {
+    background: #e0e0e0;
+    text-decoration: line-through;
+}
+
+.todoItem input {
+    margin-top: 10px;
+}
+
+.deleteButton {
+    margin-left: auto;
+    background: #ff4444 !important;
+    padding: 5px 10px;
+}
+
+.deleteButton:hover {
+    background: #cc0000 !important;
+}
